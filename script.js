@@ -17,11 +17,11 @@ Employee.prototype.jobGreet = function() {
 };
 
 var alice = new Person("Alice", 25);
-alice.greet(); // Output: Hello, my name is Alice and I am 25 years old.
+// alice.greet(); 
 
 var bob = new Employee("Bob", 30, "Manager");
-bob.greet(); // Output: Hello, my name is Bob and I am 30 years old.
-bob.jobGreet();
+// bob.greet();
+// bob.jobGreet();
 // Do not change code below this line
 window.Person = Person;
 window.Employee = Employee;
